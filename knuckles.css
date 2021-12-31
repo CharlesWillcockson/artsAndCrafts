@@ -1,3 +1,7 @@
+body {
+    background-color: goldenrod;
+}
+
 h1 {
     font-size: 60px;
     font-family: "Snell Roundhand";
@@ -5,20 +9,32 @@ h1 {
     background-color: goldenrod;
     margin: 0;
 }
-
-.topnav {
+ .topnav {
+    display: flex;
+    align-content: space-around;
     background-color: turquoise;
     overflow: hidden;
 }
 
 .topnav a {
-    align-content: space-evenly;
+    /*align-content: space-evenly;*/
     text-decoration: none;
     color: white;
-    float: left;
+    /*float: left;*/
     font-size: 17px;
     padding: 14px 16px;
-    text-align: center;
+    /*text-align: center;*/
+}
+
+.photos {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.photos img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20px;
 }
 
 .topnav a:hover {
@@ -28,4 +44,17 @@ h1 {
 
 .topnav a:active {
     background-color: mediumvioletred;
+}
+
+footer {
+    padding: 20px;
+    background-color: turquoise;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    padding: 0;
+    color: white;
+
 }
