@@ -1,0 +1,31 @@
+h1 {
+    font-size: 60px;
+    font-family: "Snell Roundhand";
+    text-align: center;
+    background-color: goldenrod;
+    margin: 0;
+}
+
+.topnav {
+    background-color: turquoise;
+    overflow: hidden;
+}
+
+.topnav a {
+    align-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-size: 17px;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.topnav a:active {
+    background-color: mediumvioletred;
+}
